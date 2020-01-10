@@ -44,18 +44,18 @@ const IndexPage = () => (
       <section id="one" class="wrapper style2 spotlights">
         <StorySection
           title="The Choice"
-          img="images/pic01.jpg"
+          img="../images/bioengineering.jpg"
           dataPosition="center center"
           bodyParagraph="After working as a Bioengineer for 3 long years, I knew it wasnt for
         me. I fell in love with programming after a 2 year long coding project
-        with my brother, and as I did, I realized this was the career I was
+        with my brother, and as I did, I realized this was the career I was 
         really meant for."
           link={`/Bioengineering`}
         />
 
         <StorySection
           title="The Game"
-          img="images/pic02.jpg"
+          img="../images/game.png"
           dataPosition="top center"
           bodyParagraph="(Things about the game go here)"
           link={`GameProject`}
@@ -64,7 +64,7 @@ const IndexPage = () => (
         <StorySection
           title="The first Job"
           dataPosition="25% 25%"
-          img="images/pic03.jpg"
+          img="../images/innovest.png"
           bodyParagraph="(Things about the job go here)"
           link={`InnovestSystems`}
         />
@@ -72,7 +72,7 @@ const IndexPage = () => (
         <StorySection
           title="The second Project"
           dataPosition="25% 25%"
-          img="images/pic04.jpg"
+          img="../images/helpdesk.jpg"
           bodyParagraph="(Things about the Helpdesk system go here)"
           link={`HelpdeskProject`}
         />

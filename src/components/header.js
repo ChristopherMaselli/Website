@@ -1,27 +1,27 @@
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = () => (
+const Header = props => (
   <body class="is-preload">
     <header id="header">
-      <a href="index.html" class="title">
+      <a href="./" class="title">
         Home
       </a>
       <nav>
         <ul>
           <li>
-            <a href="firstjob.html" class="active">
+            <a href="./Bioengineering" class="active">
               Bioengineering
             </a>
           </li>
           <li>
-            <a href="gameproject.html">Game Project</a>
+            <a href="./GameProject">Game Project</a>
           </li>
           <li>
-            <a href="elements.html">Innovest Systems</a>
+            <a href="./InnovestSystems">Innovest Systems</a>
           </li>
           <li>
-            <a href="elements.html">Helpdesk Project</a>
+            <a href="./HelpdeskProject">Helpdesk Project</a>
           </li>
         </ul>
       </nav>

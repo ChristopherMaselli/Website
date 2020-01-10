@@ -21,7 +21,6 @@ export const query = graphql`
     }
   }
 `
-
 const Blog = props => {
   return (
     <Layout>
@@ -30,7 +29,11 @@ const Blog = props => {
           <div class="inner">
             <h1 class="major">{props.data.markdownRemark.frontmatter.title}</h1>
             <span class="image fit">
-              <img src={require(`../images/grass.png`)} alt="" />
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: props.data.markdownRemark.html,
+                }}
+              ></div>
             </span>
             <p>{props.data.markdownRemark.frontmatter.description}</p>
           </div>

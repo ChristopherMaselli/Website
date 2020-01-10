@@ -3,7 +3,11 @@ import React from "react"
 const StorySection = props => (
   <section>
     <a href="#" class="image">
-      <img src={props.img} alt="" data-position={props.dataPosition} />
+      <img
+        src="../images/bioengineering.jpg"
+        alt=""
+        data-position={props.dataPosition}
+      />
     </a>
     <div class="content">
       <div class="inner">
