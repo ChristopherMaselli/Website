@@ -50,7 +50,7 @@ const IndexPage = () => (
         me. I fell in love with programming after a 2 year long coding project
         with my brother, and as I did, I realized this was the career I was
         really meant for."
-          link={`/firstjob`}
+          link={`/Bioengineering`}
         />
 
         <StorySection
@@ -58,7 +58,7 @@ const IndexPage = () => (
           img="images/pic02.jpg"
           dataPosition="top center"
           bodyParagraph="(Things about the game go here)"
-          link="generic.html"
+          link={`GameProject`}
         />
 
         <StorySection
@@ -66,7 +66,7 @@ const IndexPage = () => (
           dataPosition="25% 25%"
           img="images/pic03.jpg"
           bodyParagraph="(Things about the job go here)"
-          link="generic.html"
+          link={`InnovestSystems`}
         />
 
         <StorySection
@@ -74,7 +74,7 @@ const IndexPage = () => (
           dataPosition="25% 25%"
           img="images/pic04.jpg"
           bodyParagraph="(Things about the Helpdesk system go here)"
-          link="generic.html"
+          link={`HelpdeskProject`}
         />
       </section>
 
