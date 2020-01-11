@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 import WelcomeSection from "../components/WelcomeSection"
 import StorySection from "../components/StorySection"
 import SkillsSection from "../components/SkillsSection"
@@ -10,7 +10,6 @@ import "../components/css/main.css"
 import "../components/css/noscript.css"
 import "../components/css/fontawesome-all.min.css"
 
-//import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -43,91 +42,87 @@ const IndexPage = () => (
 
       <section id="one" class="wrapper style2 spotlights">
         <StorySection
-          title="The Choice"
-          img="../images/bioengineering.jpg"
+          title="The Start"
+          img="../../bioengineering.jpg"
           dataPosition="center center"
-          bodyParagraph="After working as a Bioengineer for 3 long years, I knew it wasnt for
-        me. I fell in love with programming after a 2 year long coding project
-        with my brother, and as I did, I realized this was the career I was 
-        really meant for."
+          bodyParagraph="(Coming Soon)"
           link={`/Bioengineering`}
         />
 
         <StorySection
           title="The Game"
-          img="../images/game.png"
+          img="../../game.png"
           dataPosition="top center"
-          bodyParagraph="(Things about the game go here)"
+          bodyParagraph="(Coming Soon)"
           link={`GameProject`}
         />
 
         <StorySection
-          title="The first Job"
+          title="The Switch"
           dataPosition="25% 25%"
-          img="../images/innovest.png"
-          bodyParagraph="(Things about the job go here)"
+          img="../../innovest.png"
+          bodyParagraph="(Coming Soon)"
           link={`InnovestSystems`}
         />
 
         <StorySection
-          title="The second Project"
+          title="The Second Project"
           dataPosition="25% 25%"
-          img="../images/helpdesk.jpg"
-          bodyParagraph="(Things about the Helpdesk system go here)"
+          img="../../helpdesk.png"
+          bodyParagraph="(Coming Soon)"
           link={`HelpdeskProject`}
+        />
+
+        <StorySection
+          title="The Website"
+          dataPosition="25% 25%"
+          img="../../website.png"
+          bodyParagraph="(Coming Soon)"
+          link={`Website`}
         />
       </section>
 
       <SectionDescriptor
         id="two"
         className="wrapper style3 fade-up"
-        title="What we do"
-        description="            Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-      turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus,
-      lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
-      imperdiet est velit quis lorem."
+        title="Skills"
+        description="(Coming Soon)"
       >
         <div class="features">
           <SkillsSection
             className="icon solid major fa-code"
-            title="Aliquam sed nullam"
-            paragraphText="Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-            aliquam turpis mauris, sed ultricies erat dapibus."
+            title="(Coming Soon)"
+            paragraphText="(Coming Soon)"
           />
 
           <SkillsSection
             className="icon solid major fa-lock"
-            title="Aliquam sed nullam"
-            paragraphText="Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-            aliquam turpis mauris, sed ultricies erat dapibus."
+            title="(Coming Soon)"
+            paragraphText="(Coming Soon)"
           />
 
           <SkillsSection
             className="icon solid major fa-cog"
-            title="Aliquam sed nullam"
-            paragraphText="Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-            aliquam turpis mauris, sed ultricies erat dapibus."
+            title="(Coming Soon)"
+            paragraphText="(Coming Soon)"
           />
 
           <SkillsSection
             className="icon solid major fa-desktop"
-            title="Aliquam sed nullam"
-            paragraphText="Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-            aliquam turpis mauris, sed ultricies erat dapibus."
+            title="(Coming Soon)"
+            paragraphText="(Coming Soon)"
           />
 
           <SkillsSection
             className="icon solid major fa-link"
-            title="Aliquam sed nullam"
-            paragraphText="Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-            aliquam turpis mauris, sed ultricies erat dapibus."
+            title="(Coming Soon)"
+            paragraphText="(Coming Soon)"
           />
 
           <SkillsSection
             className="icon major fa-gem"
-            title="Aliquam sed nullam"
-            paragraphText="Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-            aliquam turpis mauris, sed ultricies erat dapibus."
+            title="(Coming Soon)"
+            paragraphText="(Coming Soon)"
           />
         </div>
 
@@ -144,21 +139,13 @@ const IndexPage = () => (
         id="three"
         className="wrapper style1 fade-up"
         title="Get in touch"
-        description="Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-          turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus,
-          lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
-          imperdiet est velit quis lorem."
+        description="(Coming Soon)"
       >
         <ContactSection />
       </SectionDescriptor>
     </div>
 
     <Footer />
-
-    <p>
-      <a href="/page-2/">Go to page 2</a>
-    </p>
-    <Link to="/page-2/">Go to page 2</Link>
   </body>
 )
 

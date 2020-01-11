@@ -3,12 +3,11 @@ import React from "react"
 const WelcomeSection = () => (
   <section id="intro" class="wrapper style1 fullscreen fade-up">
     <div class="inner">
-      <h1>Welcome!</h1>
+      <h1>Welcome Traveler!</h1>
       <p>
-        ChristopherFMaselli.com, The place place to get all of your Christopher
-        Maselli needs.
+        ChristopherFMaselli.com "(Coming Soon)"
         <br />
-        Scroll down to learn more about me.
+        Scroll down to see more things that are coming soon!
       </p>
       <ul class="actions">
         <li>

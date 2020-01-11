@@ -4,9 +4,10 @@ const StorySection = props => (
   <section>
     <a href="#" class="image">
       <img
-        src="../images/bioengineering.jpg"
+        src={props.img}
         alt=""
         data-position={props.dataPosition}
+        className="homePageImage"
       />
     </a>
     <div class="content">
