@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const WelcomeSection = () => (
   <section id="intro" class="wrapper style1 fullscreen fade-up">
@@ -11,9 +12,9 @@ const WelcomeSection = () => (
       </p>
       <ul class="actions">
         <li>
-          <a href="#one" class="button scrolly">
+          <Link to="#one" class="button scrolly">
             My Story
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

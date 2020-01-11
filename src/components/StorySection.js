@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const StorySection = props => (
   <section>
@@ -16,9 +17,9 @@ const StorySection = props => (
         <p>{props.bodyParagraph}</p>
         <ul class="actions">
           <li>
-            <a href={props.link} class="button">
+            <Link to={props.link} class="button">
               Learn more
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

@@ -1,27 +1,35 @@
 import PropTypes from "prop-types"
 import React from "react"
+import { Link } from "gatsby"
+import "../components/css/main.css"
 
 const Header = props => (
   <body class="is-preload">
     <header id="header">
-      <a href="../" class="title">
+      <Link to="../" class="title">
         Home
-      </a>
+      </Link>
       <nav>
         <ul>
           <li>
-            <a href="../Bioengineering" class="active">
+            <Link to="/Bioengineering" activeClassName="active">
               Bioengineering
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="../GameProject">Game Project</a>
+            <Link to="/GameProject" activeClassName="active">
+              Game Project
+            </Link>
           </li>
           <li>
-            <a href="../InnovestSystems">Innovest Systems</a>
+            <Link to="/InnovestSystems" activeClassName="active">
+              Innovest Systems
+            </Link>
           </li>
           <li>
-            <a href="../HelpdeskProject">Helpdesk Project</a>
+            <Link to="/HelpdeskProject" activeClassName="active">
+              Helpdesk Project
+            </Link>
           </li>
         </ul>
       </nav>

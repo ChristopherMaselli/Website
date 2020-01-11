@@ -1,5 +1,5 @@
 import React from "react"
-//import { Link } from "gatsby"
+import { Link } from "gatsby"
 import WelcomeSection from "../components/WelcomeSection"
 import StorySection from "../components/StorySection"
 import SkillsSection from "../components/SkillsSection"
@@ -21,16 +21,24 @@ const IndexPage = () => (
         <nav>
           <ul>
             <li>
-              <a href="#intro">Welcome</a>
+              <Link to="/#intro" activeClassName="scrolly active">
+                Welcome
+              </Link>
             </li>
             <li>
-              <a href="#one">My Story</a>
+              <Link to="/#one" activeClassName="scrolly active">
+                My Story
+              </Link>
             </li>
             <li>
-              <a href="#two">My Projects</a>
+              <Link to="/#two" activeClassName="scrolly active">
+                My Projects
+              </Link>
             </li>
             <li>
-              <a href="#three">Get in touch</a>
+              <Link to="/#three" activeClassName="scrolly active">
+                Get in touch
+              </Link>
             </li>
           </ul>
         </nav>
