@@ -19,6 +19,7 @@ section, summary, time, mark, audio, video {
 	transition-property: all;
 	font-size: 100%;
 	font: inherit;
+	/* animation: fadein 2s; */
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -28,6 +29,13 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+/*
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+*/
 
 ol, ul {
 	list-style: none;
@@ -3747,6 +3755,8 @@ input, select, textarea {
 			position: relative;
 			text-decoration: none;
 			text-transform: uppercase;
+			transition-duration: 1000ms !important;
+			transition-property: all!important;
 		}
 
 			#sidebar nav a:before, #sidebar nav a:after {
@@ -3757,6 +3767,8 @@ input, select, textarea {
 				position: absolute;
 				right: 0;
 				width: 100%;
+				transition-duration: 1000ms !important;
+				transition-property: all!important;
 			}
 
 			#sidebar nav a:before {
@@ -3773,6 +3785,8 @@ input, select, textarea {
 				-ms-transition: max-width 0.2s ease;
 				transition: max-width 0.2s ease;
 				max-width: 0;
+				transition-duration: 1000ms !important;
+				transition-property: all!important;
 			}
 
 			#sidebar nav a:hover {
@@ -3781,10 +3795,15 @@ input, select, textarea {
 
 			#sidebar nav a.active {
 				color: #ffffff;
+				transition-duration: 1000ms !important;
+				transition-property: all!important;
+
 			}
 
 				#sidebar nav a.active:after {
 					max-width: 100%;
+			transition-duration: 1000ms !important;
+			transition-property: all!important;
 				}
 
 		body.is-preload #sidebar > .inner {

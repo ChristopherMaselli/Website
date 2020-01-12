@@ -1,7 +1,7 @@
 import React from "react"
 
-const ContactSection = () => (
-  <div class="split style1">
+const ContactSection = React.forwardRef((props, ref) => (
+  <div class="split style1" ref={ref}>
     <section>
       <form method="post" action="#">
         <div class="fields">
@@ -80,6 +80,6 @@ const ContactSection = () => (
       </ul>
     </section>
   </div>
-)
+))
 
 export default ContactSection
