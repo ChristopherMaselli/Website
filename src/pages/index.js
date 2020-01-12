@@ -15,26 +15,20 @@ import SEO from "../components/seo"
 
 const IndexPage = () => {
   const [reff, inView] = useInView({
+    threshold: 0.5,
+  })
+
+  const [reff2, inView2] = useInView({
     threshold: 0.25,
   })
 
-  const [ref2, inView2] = useInView({
-    threshold: 0.25,
+  const [reff3, inView3] = useInView({
+    threshold: 0.5,
   })
 
-  const [ref3, inView3] = useInView({
-    threshold: 0.25,
+  const [reff4, inView4] = useInView({
+    threshold: 0.5,
   })
-
-  const [ref4, inView4] = useInView({
-    threshold: 0.25,
-  })
-
-  const [refMain, inViewMain] = useInView({
-    threshold: 0.25,
-  })
-
-  const ref = React.createRef(reff)
 
   return (
     <body class="is-preload">
@@ -59,7 +53,7 @@ const IndexPage = () => {
               </li>
               <li>
                 <Link to="/#two" class={inView3 ? "scrolly active" : "scrolly"}>
-                  My Projects
+                  My Skills
                 </Link>
               </li>
               <li>
@@ -76,9 +70,9 @@ const IndexPage = () => {
       </section>
 
       <div id="wrapper">
-        <WelcomeSection />
+        <WelcomeSection ref={reff} />
 
-        <section id="one" class="wrapper style2 spotlights">
+        <section id="one" class="wrapper style2 spotlights" ref={reff2}>
           <StorySection
             title="The Start"
             img="../../bioengineering.jpg"
@@ -125,6 +119,7 @@ const IndexPage = () => {
           className="wrapper style3 fade-up"
           title="Skills"
           description="(Coming Soon)"
+          ref={reff3}
         >
           <div class="features">
             <SkillsSection
@@ -177,9 +172,10 @@ const IndexPage = () => {
           id="three"
           className="wrapper style1 fade-up"
           title="Get in touch"
-          description="(Coming Soon)"
+          description="(Functional Use Coming Soon!)"
+          ref={reff4}
         >
-          <ContactSection ref={reff} />
+          <ContactSection />
         </SectionDescriptor>
       </div>
 

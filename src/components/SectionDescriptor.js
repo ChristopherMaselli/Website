@@ -1,8 +1,8 @@
 import React from "react"
 
-const SectionDescriptor = props => {
+const SectionDescriptor = React.forwardRef((props, ref) => {
   return (
-    <section id={props.id} class={props.className}>
+    <section id={props.id} class={props.className} ref={ref}>
       <div class="inner">
         <h2>{props.title}</h2>
         <p>{props.description}</p>
@@ -10,6 +10,6 @@ const SectionDescriptor = props => {
       </div>
     </section>
   )
-}
+})
 
 export default SectionDescriptor

@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const StorySection = props => (
-  <section>
+const StorySection = React.forwardRef((props, ref) => (
+  <section ref={ref}>
     <a href="#" class="image">
       <img
         src={props.img}
@@ -25,6 +25,6 @@ const StorySection = props => (
       </div>
     </div>
   </section>
-)
+))
 
 export default StorySection
