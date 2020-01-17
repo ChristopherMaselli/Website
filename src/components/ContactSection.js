@@ -32,20 +32,20 @@ const ContactSection = React.forwardRef((props, ref) => (
         <li>
           <h3>Address</h3>
           <span>
-            12345 Somewhere Road #654
+            455 East 14th Street
             <br />
-            Nashville, TN 00000-0000
+            New York, NY 10009
             <br />
             USA
           </span>
         </li>
         <li>
           <h3>Email</h3>
-          <a href="#">user@untitled.tld</a>
+          <a href="#">Christopherfmaselli@gmail.com</a>
         </li>
         <li>
           <h3>Phone</h3>
-          <span>(000) 000-0000</span>
+          <span>(201) 961-4859</span>
         </li>
         <li>
           <h3>Social</h3>

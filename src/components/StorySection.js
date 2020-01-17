@@ -3,14 +3,14 @@ import { Link } from "gatsby"
 
 const StorySection = React.forwardRef((props, ref) => (
   <section ref={ref}>
-    <a href="#" class="image">
+    <Link to={props.link} class="image">
       <img
         src={props.img}
         alt=""
         data-position={props.dataPosition}
         className="homePageImage"
       />
-    </a>
+    </Link>
     <div class="content">
       <div class="inner">
         <h2>{props.title}</h2>

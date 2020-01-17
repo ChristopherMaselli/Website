@@ -31,6 +31,11 @@ const Header = props => (
               Helpdesk Project
             </Link>
           </li>
+          <li>
+            <Link to="/Website" activeClassName="active">
+              Website
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
