@@ -1,1 +1,1 @@
-Personal Website Christopherfmaselli.com
+Personal Website Christopherfmaselli.com, Built within a Gatsby-React.js Framework. HTML and Javascript Aspects of website are my own work, including the functionality of the site and modularization of the pages. CSS mostly taken from template, though transition-aspects are my own work. 
