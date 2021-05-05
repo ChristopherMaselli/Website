@@ -36,6 +36,16 @@ const Header = props => (
               Website
             </Link>
           </li>
+          <li>
+            <Link to="/SonyMusicEntertainment" activeClassName="active">
+              Sony Music Entertainment
+            </Link>
+          </li>
+          <li>
+            <Link to="/GameProjectHostingWebsite" activeClassName="active">
+              Game-Project Hosting Website
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>

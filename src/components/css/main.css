@@ -1849,7 +1849,10 @@ input, select, textarea {
 		letter-spacing: 0.25em;
 		line-height: 4.75em;
 		outline: 0;
-		padding: 0 3.75em;
+    	padding-top: 0px;
+    	padding-right: 3.75em;
+    	padding-bottom: -5em;
+    	padding-left: 3.75em;
 		position: relative;
 		text-align: center;
 		text-decoration: none;
@@ -3001,7 +3004,7 @@ input, select, textarea {
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
-		height: 20em;
+		height: 26em;
 	}
 
 		body.is-ie .spotlights > section {

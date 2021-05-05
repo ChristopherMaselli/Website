@@ -19,7 +19,7 @@ const IndexPage = () => {
   })
 
   const [reff2, inView2] = useInView({
-    threshold: 0.25,
+    threshold: 0.17,
   })
 
   const [reff3, inView3] = useInView({
@@ -112,6 +112,22 @@ const IndexPage = () => {
             bodyParagraph="After completion of the Helpdesk project, my learnings in front-end applications prompted the creation of my personal website. Built in a Gatsby-React framework, with a Github-hosted custom domain-name, the project was a learning experience in itself. From the animation-work to the modularization of it’s pages, the website represents my desire to grow my skills and develop in my new career."
             link={`Website`}
           />
+
+          <StorySection
+            title="Sony Music Entertainment"
+            dataPosition="25% 25%"
+            img="../../sonymusicentertainment.jpg"
+            bodyParagraph="My next opportunity in the Software Development field came from Sony Music Entertainment. Here I primarily managed the database functionality for the Global Paperless Requisition System (GPRS). I built the requisition verification processes and helped manage various other functionality in both the database and front-end aspects of the system."
+            link={`SonyMusicEntertainment`}
+          />
+
+          <StorySection
+            title="Game-project hosting website:"
+            dataPosition="25% 25%"
+            img="../..//gameprojecthostingwebsite.jpg"
+            bodyParagraph="After finishing my hours at work, I spent my off-time crafting a professional website that would be used to host a future game-project. The Website uses a secure JWT (Json Web Token) Authentication system to safely manage the login and registration system in a professional manner. The site also accepts transactional payments using the Stripe payment processing API interface, allowing it to manage purchases and subscriptions. Finally the Website is hosted using Docker containers, which help to manage each instance of a person logging on to play the game. The site successfully managed to host a prototype of the game being developed."
+            link={`GameProjectHostingWebsite`}
+          />
         </section>
 
         <SectionDescriptor
@@ -124,7 +140,7 @@ const IndexPage = () => {
           <div class="features">
             <SkillsSection
               className="icon solid major fa-code"
-              title="C#"
+              title="C#/.Net"
               paragraphText="Primary language for Backend operations. Learned from the Game Project."
             />
 
@@ -136,8 +152,8 @@ const IndexPage = () => {
 
             <SkillsSection
               className="icon solid major fa-cog"
-              title="SQL/T-SQL"
-              paragraphText="Strong SQL skills learned from time at Innovest systems. often used to Get, Post, Put, and Delete items from Database."
+              title="PostgreSQL/T-SQL"
+              paragraphText="Strong SQL skills learned from time at Innovest systems and Sony Music Entertainment. often used to Get, Post, Put, and Delete items from Database."
             />
 
             <SkillsSection
@@ -148,7 +164,7 @@ const IndexPage = () => {
 
             <SkillsSection
               className="icon solid major fa-link"
-              title="ASP.NET/MVC"
+              title="ASP.NET Core/MVC"
               paragraphText="Primary framework for backend API functionality. Currently most experienced with MVC (Model View Controller) setup."
             />
 
